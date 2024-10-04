@@ -1,0 +1,14 @@
+
+.nav-container {
+    width: 100%;
+    height: 50px;
+   justify-content: space-around;
+}
+
+
+.navbar{
+    background-color: transparent;
+}
+.navbar.scrolled{
+    background-color: black ;
+}
