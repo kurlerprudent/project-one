@@ -33,21 +33,24 @@ const AboutSctions = () => {
       </div>
 
       <div className="second-container">
+        <div className='second-section-container'></div>
       <div className="left-info">
 
                     
-        <h3 className='title'>Our Mission Is to Empower</h3>
-        <div className="info">
-            <h4 className="number">24</h4>
-            <h4 className="text-info">Professional Online Modules</h4>
-        </div>
-        <div className="info">
-            <h4 className="number">24</h4>
-            <h4 className="text-info">Professional Online Modules</h4>
-        </div>
+<h3 className='title'>Our Mission Is to Empower</h3>
+<div className="info">
+    <h4 className="number">24</h4>
+    <h4 className="text-info">Professional Online Modules</h4>
+</div>
+<div className="info">
+    <h4 className="number">24</h4>
+    <h4 className="text-info">Professional Online Modules</h4>
+</div>
 
 
-        </div>
+</div>
+
+<div className="right-info"></div>
 
       </div>
     </div>
