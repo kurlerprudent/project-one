@@ -1,7 +1,10 @@
-
+import Navbar from "../Components/Navbar"
+import AboutSctions from "../Components/AboutSctions"
 const About = () => {
   return (
-    <div>About</div>
+    <div>
+      <AboutSctions/>
+    </div>
   )
 }
 
