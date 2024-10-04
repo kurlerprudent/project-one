@@ -1,16 +1,18 @@
 import './AdmissionBox.css'
 import { Box } from '@mui/material'
 
+
 const AdmissionBox = () => {
   return (
     <div className='container'>
     <header>
     <h1>Online SHS Admission</h1>
-    <p>Enter your JHS index number below.</p>
+  
 </header>
 
-<Box sx={{width:'100%',display:'flex',flexDirection:{xs:'column',lg:'row'},gap:10,justifyContent:'space-around'}}>
+<Box sx={{width:'100%',display:'flex',flexDirection:{xs:'column',lg:'row'},gap:10,justifyContent:{md:'space-around'}}}>
 <div className="input-section">
+<p>Enter your JHS index number below.</p>
     <input type="text" placeholder="Enter JHS index number [Eg. 010602907224]"/>
     <button className="btn-check">Check</button>
     <button className="btn-reset">Reset</button>

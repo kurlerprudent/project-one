@@ -10,7 +10,7 @@ import Cards from '../Components/Card'
 
 const MainHome = () => {
   return (
-    <div>
+    <div style={{backgroundColor:'#f8f9fa'}}>
         <Home/>
         <Box sx={{display:'flex',flexDirection:{md:'row',xs:'column'},gap:10,width:'100%',mt:20,justifyContent:'center',alignItems:'center',flexWrap:'wrap'}}>
         <Cards imageName={image1} title='Our Courses'/>
