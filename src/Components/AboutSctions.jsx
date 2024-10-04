@@ -3,6 +3,7 @@ import './AboutSection.css'
 import Navbar from './Navbar'
 import { Box, Divider, Typography } from '@mui/material'
 import ceo from '../Images/ceo3.jpg'
+import StaffCard from './StaffCard'
 const AboutSctions = () => {
   return (
     <div>
@@ -39,12 +40,12 @@ const AboutSctions = () => {
                     
 <h3 className='title'>Our Mission Is to Empower</h3>
 <div className="info">
-    <h4 className="number">24</h4>
-    <h4 className="text-info">Professional Online Modules</h4>
+    <h4 className="number">24k</h4>
+    <h4 className="text-info">Student Admission</h4>
 </div>
 <div className="info">
-    <h4 className="number">24</h4>
-    <h4 className="text-info">Professional Online Modules</h4>
+    <h4 className="number">364k</h4>
+    <h4 className="text-info">Student Placement</h4>
 </div>
 
 
@@ -52,6 +53,19 @@ const AboutSctions = () => {
 
 <div className="right-info"></div>
 
+      </div>
+
+      <div className="thirdSection">
+        <div className='meet-the-team'>
+           <h1>Meet The Team</h1>
+           <h4>The leaders of today</h4>
+        </div>
+      </div>
+
+      <div className="card-container">
+        <StaffCard/>
+        <StaffCard/>
+        <StaffCard/>
       </div>
     </div>
   )
