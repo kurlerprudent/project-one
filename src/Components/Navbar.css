@@ -83,6 +83,7 @@
     font-weight: 700;
     padding-right: 50px;
     z-index: 100;
+    text-decoration: none;
 }
 .mobile-nav-links ul .link:hover{
     color: rgb(109, 142, 198);

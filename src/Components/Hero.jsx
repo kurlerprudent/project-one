@@ -1,11 +1,12 @@
 import React from 'react';
 import { Box, Typography, Button } from '@mui/material';
 import hero from '../Images/heroS1.jpg';
-import Navbar from '../Components/Navbar'
+import Navbar from './Navbar'
 import { blue, grey } from '@mui/material/colors';
-import Arrow from '../Components/Arrow';
+import Arrow from './Arrow';
+import './Hero.css'
 
-const Home = () => {
+const Hero = () => {
   return (
     <Box
       sx={{
@@ -56,4 +57,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Hero;

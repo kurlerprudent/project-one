@@ -1,5 +1,5 @@
 import React from 'react'
-import Home from './Home'
+import Hero from '../Components/Hero'
 import image1 from '../Images/courses.jpg'
 import image2 from '../Images/placemet2.jpg'
 import image3 from '../Images/placement.jpg'
@@ -11,7 +11,7 @@ import Cards from '../Components/Card'
 const MainHome = () => {
   return (
     <div style={{backgroundColor:'#f8f9fa'}}>
-        <Home/>
+        <Hero/>
         <Box sx={{display:'flex',flexDirection:{md:'row',xs:'column'},gap:10,width:'100%',mt:20,justifyContent:'center',alignItems:'center',flexWrap:'wrap'}}>
         <Cards imageName={image1} title='Our Courses'/>
         <Cards imageName={image2} title='Our Courses'/>
