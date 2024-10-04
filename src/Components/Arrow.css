@@ -13,4 +13,7 @@
   .bounce {
     animation: bounce 2s infinite;
   }
+  .bounce:hover{
+    cursor: pointer;
+  }
   
