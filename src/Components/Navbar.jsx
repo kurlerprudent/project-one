@@ -31,8 +31,8 @@ const Navbar = () => {
 
   return (  
     <>
-    <AppBar sx={{bgcolor:'transparent'}} className={`navbar ${isScrollDown ? 'scrolled' : ''}`}>  
-      <Toolbar className="nav-container">  
+    <AppBar sx={{bgcolor:'black'}} className={`navbar ${isScrollDown ? 'scrolled' : ''}`}>  
+      <Toolbar className="nav-container" sx={{display:'flex',gap:20}}>  
         <div className='logo'>
         <Box  component="img" src={logo} alt="logo" sx={{ height: 40 }} /> 
         </div>
@@ -63,9 +63,8 @@ const Navbar = () => {
                             </li>
             </ul>
          </div>
-      </Toolbar> 
-   
-      <div className='menu-icon'>
+
+         <div className='menu-icon'>
       <IconButton  onClick={handleClick} edge="end" color="inherit" aria-label="menu"> 
         {
             isOpen ? (<div className="mobile-nav">
@@ -100,6 +99,9 @@ const Navbar = () => {
          
         </IconButton> 
       </div>
+      </Toolbar> 
+   
+    
     </AppBar>  
     
     </>

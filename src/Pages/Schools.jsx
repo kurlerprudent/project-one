@@ -6,18 +6,9 @@ const Schools = () => {
   return (
 
     <Box sx={{width:'100%'}}>
-  
-  <Box
-      sx={{
-        position:'absolute',top:5,left:0,width:'100%',height:'auto',bgcolor:'transparent'
-        
-      }}
-      >
-        <Navbar/>
-      </Box>
 
    <Box sx={{width:'100%',mt:10}}>
-      <Box sx={{ mt: 4, mb: 4, width:'100%',bgcolor: '#212223', p:3 ,color:'white',height:100}}>
+      <Box sx={{ mt: 4, mb: 4, width:'100%',bgcolor: '#212223', p:3 ,color:'white',height:100,display:'flex',flexDirection:'column',alignmentBaseline:'center',justifyContent:'center'}}>
         <Typography variant="h4" align="center" gutterBottom mb={0}>
           Find your school here
         </Typography>
@@ -26,7 +17,7 @@ const Schools = () => {
         </Typography>
       </Box>
 
-      <Box sx={{width:'100%',display:'flex',gap:2,flexWrap:'wrap',px:{md:'2%'}}}>
+      <Box sx={{width:'100%',display:'flex',gap:2,flexWrap:'wrap',px:{md:'2%',xs:0},justifyContent:{xs:'center'}}}>
 
         <SchoolCard/>
         <SchoolCard/>

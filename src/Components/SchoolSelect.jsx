@@ -28,7 +28,7 @@ const SchoolDropdown = () => {
         flexDirection: 'column',
         alignItems: 'center',
         justifyContent: 'center',
-       width:'100%',
+       width:'90%',
         backgroundColor: '#f5f5f5',
         padding: 2,
       }}

@@ -20,7 +20,7 @@ const MainHome = () => {
         <Cards imageName={image4} title='Our Courses'/>
         </Box>
 
-        <Box sx={{display:'flex',gap:5,mt:15,flexDirection:{xs:'column',md:'row'}}}>
+        <Box sx={{display:'flex',gap:5,mt:15,flexDirection:{xs:'column',md:'row'},px:{xs:'2%',md:0}}}>
           <CheckAdmission/>
           <SchoolDropdown/>
         </Box>
