@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Alice Johnson",
+    "title": "Project Manager",
+    "description": "Alice is an experienced project manager who excels in leading cross-functional teams to deliver complex projects on time and within budget.",
+    "image": "https://images.unsplash.com/photo-1595152772835-219674b2a8a6"
+  },
+  {
+    "id": 2,
+    "name": "Bob Smith",
+    "title": "Software Developer",
+    "description": "Bob is a skilled software developer with expertise in full-stack development. He is passionate about coding and loves solving challenging problems.",
+    "image": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde"
+  },
+  {
+    "id": 3,
+    "name": "Carol Williams",
+    "title": "UX Designer",
+    "description": "Carol is a creative UX designer with a keen eye for detail. She specializes in creating user-friendly interfaces and enhancing user experiences.",
+    "image": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1"
+  },
+  {
+    "id": 4,
+    "name": "David Brown",
+    "title": "Data Scientist",
+    "description": "David is a data scientist with a strong background in machine learning and data analysis. He enjoys uncovering insights from large datasets.",
+    "image": "https://images.unsplash.com/photo-1502767089025-6572583495b0"
+  },
+  {
+    "id": 5,
+    "name": "Eve Davis",
+    "title": "Marketing Specialist",
+    "description": "Eve is a marketing specialist with expertise in digital marketing strategies. She has a knack for creating compelling campaigns that drive engagement.",
+    "image": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1"
+  },
+  {
+    "id": 6,
+    "name": "Frank Miller",
+    "title": "Sales Manager",
+    "description": "Frank is a results-driven sales manager with a proven track record of exceeding sales targets. He is adept at building strong client relationships.",
+    "image": "https://images.unsplash.com/photo-1502767089025-6572583495b0"
+  }
+]

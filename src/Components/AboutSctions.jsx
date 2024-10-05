@@ -1,11 +1,30 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './AboutSection.css'
 import Navbar from './Navbar'
 import { Box, Divider, Typography } from '@mui/material'
 import ceo from '../Images/ceo3.jpg'
 import StaffCard from './StaffCard'
 import SecondHeroSection from './SecondHeroSection'
+import Counter from './Conter'
+
+
 const AboutSctions = () => {
+    const [people,setPeople] = useState([])
+
+    useEffect(()=>{
+        const fetchData = async ()=>{
+            try {
+                const res = await fetch('/People.json')
+                const data = await res.json()
+                setPeople(data)
+            } catch (error) {
+                console.log(error)
+            }
+
+        }
+        fetchData()
+    },[])
+
   return (
     <Box sx={{width:'100%'}}>
    
@@ -35,21 +54,22 @@ const AboutSctions = () => {
       </div>
 
       <div className="second-container">
-        <div className='second-section-container'></div>
+        <div className='second-section-container'>
       <div className="left-info">
 
                     
-<h3 className='title'>Our Mission Is to Empower</h3>
+<h3 className='title'>We have the Stats</h3>
 <div className="info">
-    <h4 className="number">24k</h4>
+    <h4 className="number" ><Box sx={{display:'flex'}}><Counter target={240}/>K</Box></h4>
     <h4 className="text-info">Student Admission</h4>
 </div>
 <div className="info">
-    <h4 className="number">364k</h4>
+    <h4 className="number"><Box sx={{display:'flex'}}><Counter target={360}/>K</Box></h4>
     <h4 className="text-info">Student Placement</h4>
 </div>
 
 
+</div>
 </div>
 
 <div className="right-info"></div>
@@ -62,12 +82,19 @@ const AboutSctions = () => {
            <h4>The leaders of today</h4>
         </div>
       </div>
-
       <div className="card-container">
-        <StaffCard/>
-        <StaffCard/>
-        <StaffCard/>
+      {
+            people && people.map((info)=>(
+                <div key={info.id} >
+                <StaffCard name={info.name} title={info.title} desc={info.description} imageName={info.image}/>
+               
+               
+              </div>
+            ))
+        }
       </div>
+     
+     
       </Box>
   )
 }
