@@ -19,30 +19,30 @@ const Conatct = () => {
 
     <Box textAlign="center" sx={{display:'flex',flexDirection:'column',gap:2}}>
             <IconButton>
-              <Email fontSize="large" />
+              <Email fontSize="large" sx={{color:blue[300]}} />
             </IconButton>
             <Typography variant="h6">Contact us today</Typography>
-            <Typography>Phone: +90 987 665 55 44</Typography>
-            <Typography>Fax: +90 987 665 55 45</Typography>
-            <Typography>Email: info@yoursite.com</Typography>
+            <Typography>Phone: +233 987 665 55 44</Typography>
+            <Typography>Fax: +233 987 665 55 45</Typography>
+            <Typography>Email: test@gmail.com</Typography>
           </Box>
 
           <Box textAlign="center" sx={{display:'flex',flexDirection:'column',gap:2}}>
             <IconButton>
-              <LocationOn fontSize="large" />
+              <LocationOn fontSize="large" sx={{color:blue[300]}}  />
             </IconButton>
             <Typography variant="h6">Visit Our Office</Typography>
-            <Typography>PO Box 16122 Collins Street West</Typography>
-            <Typography>Victoria 8007 Australia</Typography>
-            <Typography>View on Google Map</Typography>
+            <Typography>PO Box 16122 River dale</Typography>
+            <Typography>Victoria 8007 Ghana</Typography>
+            
           </Box>
 
           <Box textAlign="center" sx={{display:'flex',flexDirection:'column',gap:2}}>
             <IconButton>
-              <Twitter fontSize="large" />
+              <Twitter fontSize="large"  sx={{color:blue[300]}} />
             </IconButton>
             <Typography variant="h6">Be Social</Typography>
-            <Typography>Twitter: @yourhandle</Typography>
+            <Typography>Twitter: @test</Typography>
             <Typography>Facebook: facebook.com/yourhandle</Typography>
             <Typography>Email Newsletter</Typography>
           </Box>
