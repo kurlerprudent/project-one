@@ -15,7 +15,7 @@ const AdmissionForm = () => {
         padding: 2,
       }}
     >
-      <Typography sx={{color:blue[400]}} variant="h4" component="h1" gutterBottom>
+      <Typography sx={{textAlign:'center',width:'100%',color:blue[400]}} variant="h4" component="h2" gutterBottom>
         Online SHS Admission
       </Typography>
       <Typography variant="body1" gutterBottom>

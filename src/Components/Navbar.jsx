@@ -29,6 +29,11 @@ const Navbar = () => {
     };  
   }, []);  
 
+
+  const handleScrollToTop = ()=>{
+    window.scrollTo({top:0, behavior:'smooth'})
+  }
+
   return (  
     <>
     <AppBar sx={{bgcolor:'black'}} className={`navbar ${isScrollDown ? 'scrolled' : ''}`}>  
@@ -42,24 +47,24 @@ const Navbar = () => {
             <ul className='links'>
             <li className="link">
                             
-                            <Link style={{textDecoration:'none',color:'inherit'}} to='/'>Home</Link>
+                            <Link onClick={handleScrollToTop} style={{textDecoration:'none',color:'inherit'}} to='/'>Home</Link>
 
                             </li>
                         <li className="link">
                             
-                            <Link style={{textDecoration:'none',color:'inherit'}} to='/about'>About</Link>
+                            <Link onClick={handleScrollToTop} style={{textDecoration:'none',color:'inherit'}} to='/about'>About</Link>
                             </li>
                         <li className="link">
                             
-                            <Link style={{textDecoration:'none',color:'inherit'}} to='/schools'>Schools</Link>
+                            <Link onClick={handleScrollToTop} style={{textDecoration:'none',color:'inherit'}} to='/schools'>Schools</Link>
                             </li>
                         <li className="link">
                             
-                            <Link style={{textDecoration:'none',color:'inherit'}} to='/contact'>Contact</Link>
+                            <Link onClick={handleScrollToTop} style={{textDecoration:'none',color:'inherit'}} to='/contact'>Contact</Link>
                             </li>
                         <li className="link">
                             
-                            <Link style={{textDecoration:'none',color:'inherit'}} to='/student-menu'>Student Menu</Link>
+                            <Link onClick={handleScrollToTop} style={{textDecoration:'none',color:'inherit'}} to='/student-menu'>Student Menu</Link>
                             </li>
             </ul>
          </div>
@@ -73,24 +78,24 @@ const Navbar = () => {
                     <ul>
                         <li className="link">
                             
-                            <Link style={{textDecoration:'none',color:'inherit'}} to='/'>Home</Link>
+                            <Link onClick={handleScrollToTop} style={{textDecoration:'none',color:'inherit'}} to='/'>Home</Link>
 
                             </li>
                         <li className="link">
                             
-                            <Link style={{textDecoration:'none',color:'inherit'}} to='/about'>About</Link>
+                            <Link onClick={handleScrollToTop} style={{textDecoration:'none',color:'inherit'}} to='/about'>About</Link>
                             </li>
                         <li className="link">
                             
-                            <Link style={{textDecoration:'none',color:'inherit'}} to='/schools'>Schools</Link>
+                            <Link onClick={handleScrollToTop} style={{textDecoration:'none',color:'inherit'}} to='/schools'>Schools</Link>
                             </li>
                         <li className="link">
                             
-                            <Link style={{textDecoration:'none',color:'inherit'}} to='/contact'>Contact</Link>
+                            <Link onClick={handleScrollToTop} style={{textDecoration:'none',color:'inherit'}} to='/contact'>Contact</Link>
                             </li>
                         <li className="link">
                             
-                            <Link style={{textDecoration:'none',color:'inherit'}} to='/student-menu'>Student Menu</Link>
+                            <Link onClick={handleScrollToTop} style={{textDecoration:'none',color:'inherit'}} to='/student-menu'>Student Menu</Link>
                             </li>
                     </ul>
                 </div>

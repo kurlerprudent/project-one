@@ -4,11 +4,12 @@ import Navbar from './Navbar'
 import { Box, Divider, Typography } from '@mui/material'
 import ceo from '../Images/ceo3.jpg'
 import StaffCard from './StaffCard'
+import SecondHeroSection from './SecondHeroSection'
 const AboutSctions = () => {
   return (
     <Box sx={{width:'100%'}}>
    
-
+        <SecondHeroSection pageName='About'/>
       <div className="first-container">
         <div className="first-content">
             <Box sx={{mt:10,px:'5%'}}>
