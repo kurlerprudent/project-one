@@ -5,7 +5,6 @@ import image2 from '../Images/placemet2.jpg'
 import image3 from '../Images/placement.jpg'
 import image4 from '../Images/registered.jpg'
 import { Box } from '@mui/material'
-import AdmissionBox from '../Components/AdmissionBox'
 import Cards from '../Components/Card'
 
 const MainHome = () => {
@@ -19,9 +18,7 @@ const MainHome = () => {
         <Cards imageName={image4} title='Our Courses'/>
         </Box>
 
-        <Box>
-            <AdmissionBox/>
-        </Box>
+      
        
     </div>
   )

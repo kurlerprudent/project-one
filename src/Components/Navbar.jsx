@@ -7,7 +7,7 @@ import { Close } from '@mui/icons-material';
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {  
-  const [isScrollDown, setIsScrollDown] = useState(false);  
+  const [isScrollDown, setIsScrollDown] = useState(true);  
   const [isOpen, setisOpen] = useState(false) ;
 
   const handleClick = ()=>{

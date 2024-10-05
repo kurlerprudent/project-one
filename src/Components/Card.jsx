@@ -5,14 +5,13 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
-import CardActionArea from '@mui/material/CardActionArea';
 import CardActions from '@mui/material/CardActions';
 
 
 const Cards = ({imageName,title,description}) => {
   return (
 
-    <Card sx={{ minWidth: 305,maxWidth:400 }}>
+    <Card id='card-section' sx={{ minWidth: 305,maxWidth:400 }}>
    
       <CardMedia
         component="img"
@@ -31,7 +30,7 @@ const Cards = ({imageName,title,description}) => {
     
     <CardActions>
       <Button size="small" color="primary">
-        Share
+        Learn more
       </Button>
     </CardActions>
   </Card>
