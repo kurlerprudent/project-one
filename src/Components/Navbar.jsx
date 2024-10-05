@@ -51,15 +51,15 @@ const Navbar = () => {
                             </li>
                         <li className="link">
                             
-                            <Link style={{textDecoration:'none',color:'inherit'}} to='schools'>Schools</Link>
+                            <Link style={{textDecoration:'none',color:'inherit'}} to='/schools'>Schools</Link>
                             </li>
                         <li className="link">
                             
-                            <Link style={{textDecoration:'none',color:'inherit'}} to='contact'>Contact</Link>
+                            <Link style={{textDecoration:'none',color:'inherit'}} to='/contact'>Contact</Link>
                             </li>
                         <li className="link">
                             
-                            <Link style={{textDecoration:'none',color:'inherit'}} to='student-menu'>Student Menu</Link>
+                            <Link style={{textDecoration:'none',color:'inherit'}} to='/student-menu'>Student Menu</Link>
                             </li>
             </ul>
          </div>
@@ -83,15 +83,15 @@ const Navbar = () => {
                             </li>
                         <li className="link">
                             
-                            <Link style={{textDecoration:'none',color:'inherit'}} to='schools'>Schools</Link>
+                            <Link style={{textDecoration:'none',color:'inherit'}} to='/schools'>Schools</Link>
                             </li>
                         <li className="link">
                             
-                            <Link style={{textDecoration:'none',color:'inherit'}} to='contact'>Contact</Link>
+                            <Link style={{textDecoration:'none',color:'inherit'}} to='/contact'>Contact</Link>
                             </li>
                         <li className="link">
                             
-                            <Link style={{textDecoration:'none',color:'inherit'}} to='student-menu'>Student Menu</Link>
+                            <Link style={{textDecoration:'none',color:'inherit'}} to='/student-menu'>Student Menu</Link>
                             </li>
                     </ul>
                 </div>

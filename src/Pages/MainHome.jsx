@@ -1,6 +1,6 @@
 import React from 'react'
 import Hero from '../Components/Hero'
-import image1 from '../Images/courses.jpg'
+import image1 from '../Images/admitted.jpg'
 import image2 from '../Images/placemet2.jpg'
 import image3 from '../Images/placement.jpg'
 import image4 from '../Images/registered.jpg'
