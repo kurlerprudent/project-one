@@ -7,6 +7,11 @@ import Arrow from './Arrow';
 import './Hero.css'
 
 const Hero = () => {
+  const ht = window.innerHeight + 50;
+  const handleClick = ()=>{
+    window.scrollTo({top:ht,behavior:'smooth'})
+  }
+
   return (
     <Box
       sx={{
@@ -36,7 +41,7 @@ const Hero = () => {
         <Typography variant="body1" component="p" sx={{ marginBottom: '2rem',fontSize:{md:24,xs:16},textAlign:'center',color:grey[300],fontWeight:'700' }}>
           This is your number one web application to make your Senior High School admission easy and safe
         </Typography>
-        <Button sx={{color:'white',paddingX:10,py:1,fontWeight:'700',fontSize:20,mt:7,backgroundColor:blue[600]}} disableRipple variant="contained">
+        <Button onClick={handleClick} sx={{color:'white',paddingX:10,py:1,fontWeight:'700',fontSize:20,mt:7,backgroundColor:blue[600]}} disableRipple variant="contained">
           Explore
         </Button>
       </Box>
