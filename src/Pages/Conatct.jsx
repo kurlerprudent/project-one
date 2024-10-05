@@ -48,11 +48,13 @@ const Conatct = () => {
           </Box>
 
     </Box>
-    <Box sx={{width:'100%',display:'flex',flexDirection:{xs:'column',md:'row'},gap:1}}>
-      <Box>
+    <Box  sx={{width:'100%',display:'flex',flexDirection:{xs:'column',md:'row'},gap:1}}>
+      <Box boxShadow={2}>
         <ContactForm/>
       </Box>
-      <Box></Box>
+      <Box boxShadow={2}>
+        
+      </Box>
     </Box>
 
     </Box>
