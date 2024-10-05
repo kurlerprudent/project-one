@@ -6,8 +6,8 @@ import ceo from '../Images/ceo3.jpg'
 import StaffCard from './StaffCard'
 const AboutSctions = () => {
   return (
-    <div>
-    <Navbar/>
+    <Box sx={{width:'100%'}}>
+   
 
       <div className="first-container">
         <div className="first-content">
@@ -67,7 +67,7 @@ const AboutSctions = () => {
         <StaffCard/>
         <StaffCard/>
       </div>
-    </div>
+      </Box>
   )
 }
 

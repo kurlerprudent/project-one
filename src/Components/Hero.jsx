@@ -41,9 +41,7 @@ const Hero = () => {
         </Button>
       </Box>
 
-      <Box sx={{position:'absolute',bottom:20}}>
-        <Arrow/>
-      </Box>
+     
 
       <Box
       sx={{

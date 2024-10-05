@@ -3,14 +3,26 @@ import SecondHeroSection from "../Components/SecondHeroSection"
 import { blue, grey } from "@mui/material/colors"
 import { Email, LocationOn, Twitter } from "@mui/icons-material"
 import ContactForm from "../Components/ContactForm"
+import Navbar from "../Components/Navbar"
 
 const Conatct = () => {
   return (
   <Box>
+    
+    <Box
+      sx={{
+        position:'absolute',top:'0',left:'0',width:'100%',height:'auto'
+        
+      }}
+      >
+        <Navbar/>
+      </Box>
+
+
     <SecondHeroSection pageName='Contact Us' /> 
 
 
-    <Box boxShadow={2} sx={{width:{md:'70%',xs:'100%'}, bgcolor:grey[300],ml:{md:'10%'},mr:{md:'10%'},display:'flex',flexDirection:'column',p:{lg:10},gap:8}}>
+    <Box boxShadow={2} sx={{width:{md:'90%',lg:'80%',xs:'100%'}, bgcolor:grey[300],mx:'5%',display:'flex',flexDirection:'column',p:{lg:10},gap:8}}>
 
     <Box sx={{width:'100%',display:'flex',flexDirection:'row',gap:3,flexWrap:'wrap',justifyContent:{lg:'space-between',xs:'center'},alignItems:'center',pt:10}}>
 

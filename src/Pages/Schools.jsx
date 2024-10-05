@@ -6,14 +6,22 @@ const Schools = () => {
   return (
 
     <Box sx={{width:'100%'}}>
-  <Navbar/>
+  
+  <Box
+      sx={{
+        position:'absolute',top:5,left:0,width:'100%',height:'auto',bgcolor:'transparent'
+        
+      }}
+      >
+        <Navbar/>
+      </Box>
 
    <Box sx={{width:'100%',mt:10}}>
       <Box sx={{ mt: 4, mb: 4, width:'100%',bgcolor: '#212223', p:3 ,color:'white',height:100}}>
         <Typography variant="h4" align="center" gutterBottom mb={0}>
           Find your school here
         </Typography>
-        <Typography variant="h6" align="center">
+        <Typography variant="h6" align="center" sx={{fontSize:{xs:20}}}>
           Learn more about your school
         </Typography>
       </Box>
