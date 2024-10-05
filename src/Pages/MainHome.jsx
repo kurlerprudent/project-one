@@ -6,6 +6,8 @@ import image3 from '../Images/placement.jpg'
 import image4 from '../Images/registered.jpg'
 import { Box } from '@mui/material'
 import Cards from '../Components/Card'
+import CheckAdmission from '../Components/CheckAdmission'
+import SchoolDropdown from '../Components/SchoolSelect'
 
 const MainHome = () => {
   return (
@@ -16,6 +18,11 @@ const MainHome = () => {
         <Cards imageName={image2} title='Our Courses'/>
         <Cards imageName={image3} title='Our Courses'/>
         <Cards imageName={image4} title='Our Courses'/>
+        </Box>
+
+        <Box sx={{display:'flex',gap:5,mt:15,flexDirection:{xs:'column',md:'row'}}}>
+          <CheckAdmission/>
+          <SchoolDropdown/>
         </Box>
 
       
