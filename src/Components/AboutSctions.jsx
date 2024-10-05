@@ -12,8 +12,8 @@ const AboutSctions = () => {
         <SecondHeroSection pageName='About'/>
       <div className="first-container">
         <div className="first-content">
-            <Box sx={{mt:10,px:'5%'}}>
-                <Typography sx={{fontSize:48,fontWeight:'500',mb:0,}}>Message From the CEO</Typography>
+            <Box sx={{mt:{md:10,xs:3},px:'5%'}}>
+                <Typography sx={{fontSize:{md:48,xs:30},fontWeight:'500',mb:0,}}>Message From the CEO</Typography>
                 <Typography sx={{mt:0,textAlign:'center'}}>Success Yeboah Wonder [S&S Innovative]</Typography>
             </Box>
             <Divider sx={{color:'white',borderWidth:2}}/>
