@@ -57,7 +57,7 @@ const StaffCard = ({name,title,desc,imageName}) => {
           <Typography id="modal-modal-description" sx={{ mt: 2 }}>
             {desc}
           </Typography>
-          <Button sx={{mt:10,justifySelf:'center'}} onClick={handleClose} variant='outlined'>Cancel</Button>
+          <Button sx={{mt:6,justifySelf:'center'}} onClick={handleClose} variant='outlined'>Cancel</Button>
         </Box>
        
       </Modal>

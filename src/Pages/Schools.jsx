@@ -47,7 +47,7 @@ const Schools = () => {
           </Typography>
         </Box>
 
-        <Box sx={{ width: '100%', display: 'flex', gap: 2, flexWrap: 'wrap', px: { md: '2%', xs: 0 }, justifyContent: { xs: 'center' } }}>
+        <Box sx={{ width: '100%', display: 'flex', gap: 4, flexWrap: 'wrap', px: { md: '2%', xs: 0 }, justifyContent: { xs: 'center' } }}>
           {currentItems.map((data) => (
             <Box key={data.id}>
               <SchoolCard imageName={data.badge} schoolInfo={`${data.about} ${data.achievements}`} schoolType={data.type} schoolName={data.name} />
