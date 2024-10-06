@@ -11,13 +11,13 @@ import CardActions from '@mui/material/CardActions';
 const Cards = ({imageName,title,description}) => {
   return (
 
-    <Card id='card-section' sx={{ minWidth: 305,maxWidth:400 }}>
+    <Card id='card-section' sx={{ minWidth: 200,maxWidth:300 }}>
    
       <CardMedia
         component="img"
         height="140"
         image={imageName}
-        alt="green iguana"
+        alt="image"
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">

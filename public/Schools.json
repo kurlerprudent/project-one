@@ -1,0 +1,146 @@
+[
+    {
+      "id": 1,
+      "name": "Achimota School",
+      "type": "Day/Boarding",
+      "location": "Accra",
+      "about": "Achimota School, also known as Motown, is one of the oldest and most prestigious schools in Ghana. It was established in 1924 and has a rich history of academic excellence and notable alumni.",
+      "achievements": "Achimota School has produced many prominent leaders in Ghana and beyond, including former presidents, diplomats, and professionals in various fields.",
+      "badge": "https://upload.wikimedia.org/wikipedia/commons/9/90/ACHIMOTA_CREST.svg"
+    },
+    {
+      "id": 2,
+      "name": "Wesley Girls' High School",
+      "type": "Boarding",
+      "location": "Cape Coast",
+      "about": "Wesley Girls' High School is a highly respected all-girls school founded in 1836. It is known for its strong academic performance and emphasis on discipline and moral values.",
+      "achievements": "The school consistently ranks among the top in national examinations and has a strong record in extracurricular activities, particularly in science and mathematics competitions.",
+      "badge": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_NsexVa1aXS9A7pQWufxr5FcKabDM9vIZSA&s"
+    },
+    {
+      "id": 3,
+      "name": "Presbyterian Boys' Secondary School (PRESEC)",
+      "type": "Day/Boarding",
+      "location": "Accra",
+      "about": "PRESEC is a prestigious boys' school established in 1938. It is renowned for its academic excellence, particularly in science and technology.",
+      "achievements": "PRESEC has won the National Science and Maths Quiz multiple times and has a strong alumni network contributing to various sectors in Ghana.",
+      "badge": "https://upload.wikimedia.org/wikipedia/en/4/44/Presbyterian_boys_secondary_logo_2.png"
+    },
+    {
+      "id": 4,
+      "name": "St. Augustine's College",
+      "type": "Boarding",
+      "location": "Cape Coast",
+      "about": "St. Augustine's College, often referred to as 'Augusco', is a prominent boys' school founded in 1930. It is known for its academic rigor and vibrant school culture.",
+      "achievements": "The school has a strong track record in national examinations and sports, particularly in athletics and football.",
+      "badge": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSU0q5UxS_0Fg6ItvbBGXLc2c5KCydH0Shjzw&s"
+    },
+    {
+      "id": 5,
+      "name": "Opoku Ware School",
+      "type": "Day/Boarding",
+      "location": "Kumasi",
+      "about": "Opoku Ware School, also known as OWASS, is a top boys' school established in 1952. It is known for its academic excellence and strong emphasis on discipline.",
+      "achievements": "OWASS has produced many notable alumni in various fields and consistently performs well in national examinations and extracurricular activities.",
+      "badge": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRParmpp1LHBUWukkp_UGSv-mUmR1jowfOTQg&s"
+    },
+    {
+      "id": 6,
+      "name": "Holy Child School",
+      "type": "Boarding",
+      "location": "Cape Coast",
+      "about": "Holy Child School is an all-girls boarding school founded in 1946. It is known for its strong academic performance and nurturing environment.",
+      "achievements": "The school has a strong record in national examinations and extracurricular activities, particularly in science and arts.",
+      "badge": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQD5rHnt9aBOctCSDFNN_OQyZsuufzEb6X-bA&s"
+    },
+    {
+      "id": 7,
+      "name": "Adisadel College",
+      "type": "Boarding",
+      "location": "Cape Coast",
+      "about": "Adisadel College, also known as 'Adisco', is a prestigious boys' school founded in 1910. It is known for its academic excellence and vibrant school culture.",
+      "achievements": "Adisadel College has a strong track record in national examinations and sports, particularly in athletics and football.",
+      "badge": "https://pbs.twimg.com/profile_images/1767872187992621056/sXXc_oQm_400x400.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Mfantsipim School",
+      "type": "Boarding",
+      "location": "Cape Coast",
+      "about": "Mfantsipim School, also known as 'Kwabotwe', is a prestigious boys' school founded in 1876. It is known for its academic excellence and strong emphasis on discipline.",
+      "achievements": "Mfantsipim has produced many notable alumni in various fields and consistently performs well in national examinations and extracurricular activities.",
+      "badge": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3GtstcIGxUPhlZ6t_OLP3w8qv894fi3HGwg&s"
+    },
+    {
+      "id": 9,
+      "name": "Aburi Girls' Senior High School",
+      "type": "Boarding",
+      "location": "Aburi",
+      "about": "Aburi Girls' Senior High School is an all-girls boarding school founded in 1946. It is known for its strong academic performance and nurturing environment.",
+      "achievements": "The school has a strong record in national examinations and extracurricular activities, particularly in science and arts.",
+      "badge": "https://pbs.twimg.com/profile_images/1311231587934240768/v4C7F2xT_400x400.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Keta Senior High Technical School",
+      "type": "Day/Boarding",
+      "location": "Keta",
+      "about": "Keta Senior High Technical School, also known as KETASCO, is a co-educational school founded in 1953. It is known for its strong academic performance and emphasis on technical education.",
+      "achievements": "KETASCO has a strong record in national examinations and extracurricular activities, particularly in science and technology.",
+      "badge": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Ketasco.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Ghana National College",
+      "type": "Day/Boarding",
+      "location": "Cape Coast",
+      "about": "Ghana National College is a co-educational school founded in 1948. It is known for its strong academic performance and emphasis on discipline.",
+      "achievements": "The school has a strong record in national examinations and extracurricular activities, particularly in science and arts.",
+      "badge": "https://www.sophiaapenkro.com/wp-content/uploads/2023/03/Ghana-National-College.png"
+    },
+    {
+      "id": 12,
+      "name": "St. Peter's Senior High School",
+      "type": "Boarding",
+      "location": "Nkwatia",
+      "about": "St. Peter's Senior High School, also known as PERSCO, is a prestigious boys' school founded in 1957. It is known for its academic excellence and strong emphasis on discipline.",
+      "achievements": "PERSCO has produced many notable alumni in various fields and consistently performs well in national examinations and extracurricular activities.",
+      "badge": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7tvl7qx5ri6RdxvjVTSxMJgnUff4ZO22dzw&s"
+    },
+    {
+      "id": 13,
+      "name": "Accra Academy",
+      "type": "Day/Boarding",
+      "location": "Accra",
+      "about": "Accra Academy is a prestigious boys' school founded in 1931. It is known for its academic excellence and strong emphasis on discipline.",
+      "achievements": "Accra Academy has produced many notable alumni in various fields and consistently performs well in national examinations and extracurricular activities.",
+      "badge": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-iT5oC_A8MZ5CAwu4i-45iPkp1rnOu-6P7g&s"
+    },
+    {
+      "id": 14,
+      "name": "Tamale Senior High School",
+      "type": "Day/Boarding",
+      "location": "Tamale",
+      "about": "Tamale Senior High School, also known as Tamasco, is a co-educational school founded in 1951. It is known for its strong academic performance and emphasis on discipline.",
+      "achievements": "Tamasco has a strong record in national examinations and extracurricular activities, particularly in science and arts.",
+      "badge": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6FCXykVphXJdyOSWd-ziqS4Zz_48FC7v9LA&s"
+    },
+    {
+      "id": 15,
+      "name": "Prempeh College",
+      "type": "Boarding",
+      "location": "Kumasi",
+      "about": "Prempeh College is a prestigious boys' school founded in 1949. It is known for its academic excellence and strong emphasis on discipline.",
+      "achievements": "Prempeh College has produced many notable alumni in various fields and consistently performs well in national examinations and extracurricular activities.",
+      "badge": "https://theseniorszone.wordpress.com/wp-content/uploads/2018/01/img-20151025-wa00019649465221.jpg?w=672"
+    },
+    {
+      "id": 16,
+      "name": "St. Louis Senior High School",
+      "type": "Boarding",
+      "location": "Kumasi",
+      "about": "St. Louis Senior High School is an all-girls boarding school founded in 1952. It is known for its strong academic performance and nurturing environment.",
+      "achievements": "The school has a strong record in national examinations and extracurricular activities, particularly in science and arts.",
+      "badge": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9zaPfq63C5jRO4SuWPVER_QC8dYRM9Dz-sg&s"
+    }
+]

@@ -5,6 +5,7 @@ import { useState } from 'react';
 import { blue, grey } from '@mui/material/colors';
 
 
+
 const style = {
     position: 'absolute',
     top: '50%',
@@ -56,7 +57,9 @@ const StaffCard = ({name,title,desc,imageName}) => {
           <Typography id="modal-modal-description" sx={{ mt: 2 }}>
             {desc}
           </Typography>
+          <Button sx={{mt:10,justifySelf:'center'}} onClick={handleClose} variant='outlined'>Cancel</Button>
         </Box>
+       
       </Modal>
       </Box>
   )

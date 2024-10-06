@@ -1,28 +1,32 @@
-import React from 'react';
+
 import { Card, CardContent, CardMedia, Typography, Button, Box, Divider } from '@mui/material';
-import image1 from '../Images/presec.jpg'
-const SchoolCard = () => {
+
+
+
+const SchoolCard = ({imageName,schoolName,schoolType,schoolInfo}) => {
+
+
   return (
-    <Card sx={{ minWidth: 330 }}>
+    <Card sx={{ minWidth: 200,maxWidth:300 }}>
       <CardMedia
         component="img"
         height="140"
-        image={image1}
+        image={imageName}
         alt="Business Consulting"
         
       />
       <CardContent>
         <Box sx={{display:'flex',justifyContent:'space-between',alignItems:'center',mb:3}}>
             <Typography variant='p'>SHS</Typography>
-            <Typography variant='p'>Day/Boarding</Typography>
+            <Typography variant='p'>{schoolType}</Typography>
         </Box>
         <Typography gutterBottom variant="h6" component="div">
-          School Name
+          {schoolName}
         </Typography>
         <Divider sx={{borderWidth:1,my:2}}/>
         <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
           <Typography variant="body2" color="text.secondary">
-            School Information
+            {schoolInfo.legnth > 16 ? `${schoolInfo.slice(0,20)}...`:schoolInfo}
           </Typography>
         </Box>
       </CardContent>
