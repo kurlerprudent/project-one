@@ -1,24 +1,32 @@
 import React, { useEffect, useState } from 'react'
 import './AboutSection.css'
 import Navbar from './Navbar'
-import { Box, Divider, Typography } from '@mui/material'
+import { Box, Divider, Typography,CircularProgress } from '@mui/material'
 import ceo from '../Images/ceo3.jpg'
 import StaffCard from './StaffCard'
 import SecondHeroSection from './SecondHeroSection'
 import Counter from './Conter'
+import { blue } from '@mui/material/colors'
 
 
 const AboutSctions = () => {
     const [people,setPeople] = useState([])
+    const [isLoading, setIsLoading] = useState(true)
 
     useEffect(()=>{
         const fetchData = async ()=>{
             try {
                 const res = await fetch('/People.json')
+                if(!res.ok){
+                    console.log('Error fetching data')
+                    setIsLoading(false)
+                }
                 const data = await res.json()
                 setPeople(data)
+                setIsLoading(false)
             } catch (error) {
                 console.log(error)
+                
             }
 
         }
@@ -82,17 +90,27 @@ const AboutSctions = () => {
            <h4>The leaders of today</h4>
         </div>
       </div>
-      <div className="card-container">
+
       {
-            people && people.map((info)=>(
-                <div key={info.id} >
-                <StaffCard name={info.name} title={info.title} desc={info.description} imageName={info.image}/>
-               
-               
-              </div>
-            ))
-        }
-      </div>
+        isLoading ? 
+        <Box sx={{width:'100%',display:'flex', justifyContent:{xs:'center',md:'left'}, alignItems:'center', color:blue[300], mt:6}}>
+            <CircularProgress/> Loading
+        </Box>
+        :
+        <div className="card-container">
+        {
+              people && people.map((info)=>(
+                  <div key={info.id} >
+                  <StaffCard name={info.name} title={info.title} desc={info.description} imageName={info.image}/>
+                 
+                 
+                </div>
+              ))
+          }
+        </div>
+
+      }
+   
      
      
       </Box>

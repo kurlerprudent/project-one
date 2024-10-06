@@ -31,12 +31,12 @@ const Navbar = () => {
 
 
   const handleScrollToTop = ()=>{
-    window.scrollTo({top:0, behavior:'smooth'})
+    window.scrollTo({top:0, behavior:'instant'})
   }
 
   return (  
     <>
-    <AppBar sx={{bgcolor:'black'}} className={`navbar ${isScrollDown ? 'scrolled' : ''}`}>  
+    <AppBar  sx={{bgcolor:'black'}} className={`navbar ${isScrollDown ? 'scrolled' : ''}`}>  
       <Toolbar className="nav-container" sx={{display:'flex',gap:20}}>  
         <div className='logo'>
         <Box  component="img" src={logo} alt="logo" sx={{ height: 40 }} /> 

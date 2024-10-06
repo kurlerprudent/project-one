@@ -1,17 +1,23 @@
 import React from 'react';
 import { Box, Typography, Link, Grid, IconButton } from '@mui/material';
 import { Facebook, Twitter, Instagram } from '@mui/icons-material';
+import ArrowCircleUpIcon from '@mui/icons-material/ArrowCircleUp';
 
 const Footer = () => {
+
+  const toTop = ()=>{
+    window.scrollTo({top:0, behavior:'smooth'})
+  }
+
   return (
     <Box sx={{mt:10,  backgroundColor: '#333', color: '#fff', p: 4 }}>
+       <Box  sx={{width:40,height:40,position:'fixed',bottom:60,right:30}}>
+        <ArrowCircleUpIcon onClick={toTop} sx={{fontSize:40,background:'black',borderRadius:'50%'}}/>
+      </Box>
       <Grid container spacing={4}>
         <Grid item xs={12} md={4}>
-          <Typography variant="h6" gutterBottom>
-            About Us
-          </Typography>
-          <Typography variant="body2" paragraph>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Laboriosam itaque unde facere repellendus, odio excepturi.
+        <Typography variant="h6" gutterBottom>
+            Get In touch
           </Typography>
           <Typography variant="body2">
             +1 291 3912 329
@@ -54,7 +60,7 @@ const Footer = () => {
             Contact
           </Link>
           <Link href="#" color="inherit" sx={{ mr: 2 }}>
-            Student Menu
+            Student
           </Link>
          
         </Box>
@@ -71,6 +77,8 @@ const Footer = () => {
         </Box>
       </Box>
       <Typography mt={4} sx={{textAlign:'center'}}>© Copyright 2024 www.shsdesk.com</Typography>
+
+     
     </Box>
   );
 };
