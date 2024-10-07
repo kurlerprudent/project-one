@@ -15,12 +15,14 @@ const ContactForm = () => {
             label="Enter your name"
             margin="normal"
             variant="outlined"
+        
           />
           <TextField
             fullWidth
             label="Enter email"
             margin="normal"
             variant="outlined"
+            
           />
           <TextField
             fullWidth
