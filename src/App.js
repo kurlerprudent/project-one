@@ -7,6 +7,7 @@ import Schools from './Pages/Schools';
 import StudentMenu from './Pages/StudentMenu';
 import Footer from './Components/Footer';
 import Navbar from './Components/Navbar';
+import SchoolSlug from './Pages/SchoolSlug';
 
 function App() {
     return (
@@ -17,6 +18,7 @@ function App() {
                 <Route path="/about" element={<About/>} />
                 <Route path="/contact" element={<Contact/>} />
                 <Route path="/schools" element={<Schools/>} />
+                <Route path="/schools/:id" element={<SchoolSlug/>} />
                 <Route path="/student-menu" element={<StudentMenu/>} />
                 </Routes>
                 <Footer/>

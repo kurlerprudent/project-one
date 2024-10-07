@@ -1,9 +1,10 @@
 
 import { Card, CardContent, CardMedia, Typography, Button, Box, Divider } from '@mui/material';
+import { Link } from 'react-router-dom';
 
 
 
-const SchoolCard = ({imageName,schoolName,schoolType,schoolInfo}) => {
+const SchoolCard = ({imageName,schoolName,schoolType,schoolInfo,id}) => {
 
 
   return (
@@ -31,9 +32,10 @@ const SchoolCard = ({imageName,schoolName,schoolType,schoolInfo}) => {
         </Box>
       </CardContent>
       <Box sx={{ display: 'flex', justifyContent: 'center', pb: 2, mt:3}}>
-        <Button variant="contained" color="primary">
+        <Link to={`/schoolSlug/${id}`}><Button variant="contained" color="primary">
           View Details
         </Button>
+        </Link>
       </Box>
     </Card>
   );

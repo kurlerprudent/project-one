@@ -63,7 +63,7 @@ const Schools = () => {
           </Box>
           :
           <>
-          <Box sx={{ width: '100%', display: 'flex', gap: 4, flexWrap: 'wrap', justifyContent: { xs: 'center' } }}>
+          <Box sx={{ ml:4,width: '100%', display: 'flex', gap: 4, flexWrap: 'wrap', justifyContent: { xs: 'center' } }}>
           {currentItems.map((data) => (
             <Box key={data.id}>
               <SchoolCard imageName={data.badge} schoolInfo={`${data.about} ${data.achievements}`} schoolType={data.type} schoolName={data.name} />
