@@ -8,16 +8,14 @@ import { Box } from '@mui/material'
 import Cards from '../Components/Card'
 import CheckAdmission from '../Components/CheckAdmission'
 import SchoolDropdown from '../Components/SchoolSelect'
+import StatisticsDisplay from '../Components/Stats'
 
 const MainHome = () => {
   return (
     <div style={{backgroundColor:'#f8f9fa'}}>
         <Hero/>
         <Box sx={{display:'flex',flexDirection:{md:'row',xs:'column'},gap:10,width:'100%',mt:20,justifyContent:'center',alignItems:'center',flexWrap:'wrap'}}>
-        <Cards imageName={image1} title='Our Courses'/>
-        <Cards imageName={image2} title='Our Courses'/>
-        <Cards imageName={image3} title='Our Courses'/>
-        <Cards imageName={image4} title='Our Courses'/>
+       <StatisticsDisplay/>
         </Box>
 
         <Box sx={{display:'flex',gap:5,mt:15,flexDirection:{xs:'column',md:'row'},px:{xs:'2%',md:0}}}>

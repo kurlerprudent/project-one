@@ -4,7 +4,7 @@ import { ArrowRight } from "@mui/icons-material"
 import { Link as RouterLink } from 'react-router-dom';
 import { Link } from '@mui/material';
 
-const SecondHeroSection = ({mycolor,pageName,mybackground}) => {
+const SecondHeroSection = ({pageName}) => {
   return (
     <>
     <Box sx={{position:'-webkit-sticky',position:'sticky',marginBottom:10}}>
