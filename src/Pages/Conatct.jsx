@@ -4,6 +4,7 @@ import { blue, grey } from "@mui/material/colors"
 import { Email, LocationOn, Twitter } from "@mui/icons-material"
 import ContactForm from "../Components/ContactForm"
 import Navbar from "../Components/Navbar"
+import MapComponent from "../Components/Map"
 
 const Conatct = () => {
   return (
@@ -53,7 +54,7 @@ const Conatct = () => {
         <ContactForm/>
       </Box>
       <Box boxShadow={2}>
-        
+        <MapComponent/>
       </Box>
     </Box>
 

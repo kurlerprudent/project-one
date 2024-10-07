@@ -5,6 +5,7 @@ import PersonIcon from '@mui/icons-material/Person';
 import WorkIcon from '@mui/icons-material/Work';
 import BusinessIcon from '@mui/icons-material/Business';
 import Counter from './Conter';
+import { blue } from '@mui/material/colors';
 
 const statistics = [
   { icon: <SchoolIcon fontSize="large" sx={{ color: '#1976d2' }} />, label: 'Courses', value: '216' },
@@ -15,11 +16,11 @@ const statistics = [
 
 const StatisticsDisplay = () => {
   return (
-    <Box sx={{ width: '100%', p: 2, backgroundColor: '#f5f5f5' }}>
-      <Grid container spacing={2} justifyContent="center">
+    <Box sx={{ width:{md: '100%',xs:'90%'}, p: 2, backgroundColor: '#f5f5f5' }}>
+      <Grid container spacing={2} justifyContent="center" >
         {statistics.map((stat, index) => (
-          <Grid item key={index} xs={12} sm={6} md={3}>
-            <Paper elevation={3} sx={{ p: 2, textAlign: 'center' }}>
+          <Grid item key={index} xs={12} sm={6} md={3} >
+            <Paper elevation={3} sx={{ p: 2, textAlign: 'center' ,':hover':{bgcolor:blue[300],cursor:'pointer'}}}>
               <Box sx={{ display: 'flex', justifyContent: 'center', mb: 2 }}>
                 {stat.icon}
               </Box>
